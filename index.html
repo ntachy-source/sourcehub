@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Source Hub | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f1f4f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #6105f5, #ce99f2);
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    .section-title {
+      font-size: 2.2rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+    .section-title::after {
+      content: '';
+      display: block;
+      height: 3px;
+      width: 80px;
+      background: #0d6efd;
+      margin: 10px auto 0;
+    }
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .portfolio img {
+      transition: transform 0.3s ease;
+    }
+    .portfolio img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #0d6efd;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Source Hub</h1>
+    <p>Creative | Digital | Impactful</p>
+  </header>
+
+  <section class="container py-5">
+    <h2 class="section-title">Services</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="fas fa-code fa-2x text-primary mb-3"></i>
+          <h5>Website Development</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="fas fa-paint-brush fa-2x text-primary mb-3"></i>
+          <h5>Graphic Design</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="fas fa-tshirt fa-2x text-primary mb-3"></i>
+          <h5>T-Shirt Printing</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="fas fa-bullhorn fa-2x text-primary mb-3"></i>
+          <h5>Marketing</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="fas fa-lightbulb fa-2x text-primary mb-3"></i>
+          <h5>Brand Identity</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="fas fa-share-alt fa-2x text-primary mb-3"></i>
+          <h5>Social Media Management</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5 portfolio">
+    <h2 class="section-title">Portfolio Gallery</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <img src="/PHOTO-2025-02-27-17-07-17-1.jpg" class="img-fluid rounded shadow-sm" alt="Sample Poster Work">
+      </div>
+      <div class="col-md-4">
+        <img src="/Awesome_Mockup.jpg" class="img-fluid rounded shadow-sm" alt="Portfolio Image 2">
+      </div>
+      <div class="col-md-4">
+        <img src="/Picsart_24-05-11_22-49-05-101 (1).jpg" class="img-fluid rounded shadow-sm" alt="Portfolio Image 3">
+      </div>
+      <div class="col-md-4">
+        <img src="/Poster.png" class="img-fluid rounded shadow-sm" alt="Portfolio Image 4">
+      </div>
+      <div class="col-md-4">
+        <img src="/Awesome_Mockup_(1).jpg" class="img-fluid rounded shadow-sm" alt="Portfolio Image 5">
+      </div>
+      <div class="col-md-4">
+        <img src="/Phantom Fx Poster 3.png" class="img-fluid rounded shadow-sm" alt="Portfolio Image 6">
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5">
+    <h2 class="section-title">Contact</h2>
+    <div class="text-center">
+      <p><i class="fas fa-phone-alt me-2"></i><strong>+263 713 991 203</strong></p>
+      <p><i class="fas fa-envelope me-2"></i><strong>info@sourcehub.co.zw</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Source Hub. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
